@@ -1,0 +1,11 @@
+{   
+    "batch_size_eval" : 512,
+    "dataset": "cddb",
+    "data_path": "/home/francesco.laiti/datasets/CDDB/",
+    "softmax" : false,
+    "prototype" : "fake", 
+    "scenario" : ["cddb_hard"],
+    "upperbound" : false,
+    "random_select" : false,
+    "precision" : "fp16"
+}
