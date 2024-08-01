@@ -24,7 +24,7 @@
 </div>
 <br>
 
-PyTorch implementation for ICPR 2024 paper [**"Conditioned Prompt-Optimization for Continual Deepfake Detection"**](./). :star2: this repo!
+PyTorch implementation for ICPR 2024 paper [**"Conditioned Prompt-Optimization for Continual Deepfake Detection"**](https://arxiv.org/abs/2407.21554). :star2: this repo!
 
 <p align="center">
   <img style="width: 100%" src="assets/images/method.png">
@@ -117,7 +117,15 @@ python src/eval.py --resume checkpoints/no_textprompt_conditioning.tar
 Please consider citing our paper in your publications if the project helps your research.
 
 ```
-@InProceedings
+@misc{laiti2024conditionedpromptoptimizationcontinualdeepfake,
+      title={Conditioned Prompt-Optimization for Continual Deepfake Detection}, 
+      author={Francesco Laiti and Benedetta Liberatori and Thomas De Min and Elisa Ricci},
+      year={2024},
+      eprint={2407.21554},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2407.21554}, 
+}
 ```
 
 ## Acknowledgments
